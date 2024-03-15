@@ -7,10 +7,10 @@ void main() {
   ];
   print("Original Fruit Details before Discount:");
   displayFruitDetails(fruits);
+  double discount = 10;
+  applyPriceDiscount(fruits, discount);
 
-  applyPriceDiscount(fruits, 10);
-
-  print("Fruit Details After Applying 10% Discount:");
+  print("Fruit Details After Applying ${discount}% Discount:");
   displayFruitDetails(fruits);
 }
 
